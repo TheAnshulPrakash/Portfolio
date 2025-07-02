@@ -26,7 +26,8 @@ def main(page : ft.Page):
     
     name=ft.Image("favicon.png", width=50, height=50)
     
-    about_me=ft.Text("Hi, I'm Anshul", size=50)
+    about_me=ft.Text("Hi, I'm Anshul, an aspiring Software engineer", size=50)
+    
     
     page_image=ft.Image("images/portfolio_design2.png", fit=ft.ImageFit.COVER, width=page.width, height=page.height)
     
